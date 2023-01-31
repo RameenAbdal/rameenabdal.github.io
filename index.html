@@ -409,10 +409,30 @@ Social Impact and Ethics
 </h1>
 </div>
 <div class="row">
-<div class="column_info" style="column-gap:5px">       
+<div class="column_info" style="column-gap:5px">  
+       
+<p><a onclick="javascript:ShowHide('HiddenDiv')">read more</a></p>
+<div class="mid" id="HiddenDiv" style="display: none;"><font face="Arial" size="+2" 
+
+<!-- color="#306Eff" align="right">put the rest of the text here -->
 <p><span> <i> Generative models based on GANs and Diffusion-based generative models are getting better at generating synthetic imagery. This dissertation highlights the advantages of StyleGAN-based imagery in image and video editing applications. Our tools are intended for scientific purposes for image and video understanding. Furthermore, they can be used to create or suggest new content in an image or a video to help the content creators. Apart from this, our tools can be used in other domains such as security and identification (novel views of a subject, occlusion inpainting, facial composites, superresolution, DeepFake detection, building robust face recognition systems, etc.), image/video compression (high-quality video conferencing at lower bitrates), and animations among other educational and medical applications. </span></p> 
 
 <p><span> <i> Despite these applications, our works could be used to produce offensive results. This is mainly because there are no regulatory measures for generating and distributing fake imagery. This can have detrimental consequences, especially in cases where fake imagery can be used to spread misinformation. One case could be using and distributing edited images of people created without consent. By extension, this applies to larger communities where people of importance can be targeted. In this case, such imagery may harm a person's autonomy, dignity, and privacy or hurt the sentiments of communities. Moreover, such tools can inherit the biases in the datasets, which intentionally or unintentionally can be used to create examples showing cultural appropriation, racial bias, or stereotypical features. Another case is creating false imagery of a historical event that never happened or generating fake videos of people to spread propaganda in the political domain. Hence, we advise caution against such use of our tools. We also encourage researchers and policymakers to build systems for detecting adverse cases of fake imagery and mitigating the risks of misinformation. </span></p>
+</div>
+<script type="text/javascript">// <![CDATA[
+function ShowHide(divId)
+{
+if(document.getElementById(divId).style.display == 'none')
+{
+document.getElementById(divId).style.display='block';
+}
+else
+{
+document.getElementById(divId).style.display = 'none';
+}
+}
+// ]]></script>
+       
 </div>    
 <div class="row">
 <h1 class="optima" id="pub">
